@@ -134,6 +134,7 @@
     width: 30px;
     height: 30px;
 }
+
 #dos{
     visibility: hidden;
     border-radius: 100%;
@@ -141,6 +142,7 @@
     width: 30px;
     height: 30px;
 }
+
 #tres{
     visibility: hidden;
     border-radius: 100%;
@@ -148,6 +150,7 @@
     width: 30px;
     height: 30px;
 }
+
 #cuatro{
     visibility: hidden;
     border-radius: 100%;
@@ -155,6 +158,7 @@
     width: 30px;
     height: 30px;
 }
+
 #cinco{
     visibility: hidden;
     border-radius: 100%;
@@ -162,6 +166,7 @@
     width: 30px;
     height: 30px;
 }
+
 #seis{
     visibility: hidden;
     border-radius: 100%;
@@ -169,6 +174,7 @@
     width: 30px;
     height: 30px;
 }
+
 #siete{
     visibility: hidden;
     border-radius: 100%;
@@ -176,6 +182,7 @@
     width: 30px;
     height: 30px;
 }
+
 #ocho{
     visibility: hidden;
     border-radius: 100%;
@@ -183,7 +190,80 @@
     width: 30px;
     height: 30px;
 }
+
 #nueve{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+
+#uno-d{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+
+#dos-d{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+
+#tres-d{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+
+#cuatro-d{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+
+#cinco-d{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+
+#seis-d{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+
+#siete-d{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+
+#ocho-d{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+
+#nueve-d{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
