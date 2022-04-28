@@ -4,11 +4,11 @@
     font-family: 'Libre Bodoni', serif;
 }
 
-.master-box{
-    display: flex;
+.total-center {
     align-items: center;
-    justify-content: center;  
-    height: 700px;
+    justify-content: center;
+    display: flex;
+    height: 100%;
 }
 
 .dynamic-box{
@@ -30,6 +30,7 @@
 .gif{
     width: 130px;
     height: 130px;
+    border: solid 3px #000;
 }
 
 .button-roll{
@@ -51,7 +52,7 @@
 }
 
 .btn{
-    color: #ff0000;
+    color: #ff0000 !important;
     text-decoration: none !important;
 }
 
