@@ -127,7 +127,7 @@
     visibility: inherit !important;
 }
 
-#uno{
+#first-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -135,7 +135,7 @@
     height: 30px;
 }
 
-#dos{
+#second-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -143,7 +143,7 @@
     height: 30px;
 }
 
-#tres{
+#third-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -151,7 +151,7 @@
     height: 30px;
 }
 
-#cuatro{
+#fourth-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -159,7 +159,7 @@
     height: 30px;
 }
 
-#cinco{
+#fifth-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -167,7 +167,7 @@
     height: 30px;
 }
 
-#seis{
+#sixth-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -175,7 +175,7 @@
     height: 30px;
 }
 
-#siete{
+#seventh-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -183,7 +183,7 @@
     height: 30px;
 }
 
-#ocho{
+#eighth-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -191,7 +191,7 @@
     height: 30px;
 }
 
-#nueve{
+#ninth-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -199,7 +199,7 @@
     height: 30px;
 }
 
-#uno-d{
+#first-right-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -207,7 +207,7 @@
     height: 30px;
 }
 
-#dos-d{
+#second-right-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -215,7 +215,7 @@
     height: 30px;
 }
 
-#tres-d{
+#third-right-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -223,7 +223,7 @@
     height: 30px;
 }
 
-#cuatro-d{
+#fourth-right-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -231,7 +231,7 @@
     height: 30px;
 }
 
-#cinco-d{
+#fifth-right-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -239,7 +239,7 @@
     height: 30px;
 }
 
-#seis-d{
+#sixth-right-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -247,7 +247,7 @@
     height: 30px;
 }
 
-#siete-d{
+#seventh-right-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -255,7 +255,7 @@
     height: 30px;
 }
 
-#ocho-d{
+#eighth-right-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
@@ -263,7 +263,7 @@
     height: 30px;
 }
 
-#nueve-d{
+#ninth-right-icon{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;

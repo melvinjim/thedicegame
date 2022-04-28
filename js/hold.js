@@ -5,140 +5,148 @@ document.getElementById('hold').addEventListener('click', function() {
     var secondFace = document.getElementById("image-gif");
     secondFace.classList.remove("flex");
 
-    aleatorioUno = Math.round(Math.random()*6);
-    console.log(aleatorioUno);
+    randomData = Math.round(Math.random()*6);
+    console.log(randomData);
 
-    uno = aleatorioUno;
-    tres = aleatorioUno;
-    cuatro = aleatorioUno;
-    cinco = aleatorioUno;
-    seis = aleatorioUno;
-    siete = aleatorioUno;
-    nueve = aleatorioUno;
-
-    if(uno == 2 || uno == 4 || uno == 5 || uno == 6){
-        ladoDos = document.getElementById("uno");
-        ladoDos.classList.add("visibility");
-    } else if(uno != 2 || uno != 3 || uno != 4 || uno != 5 || uno != 6){
-        ladoDos = document.getElementById("uno");
-        ladoDos.classList.remove("visibility");
+    if(randomData == 0){
+        randomData = 1;
     }
 
-    if(tres== 3 || tres == 6 || tres == 5 || tres == 4){
-        ladoTres = document.getElementById("tres")
-        ladoTres.classList.add("visibility");
-    }else if(tres != 6 || tres != 5 || tres != 4){
-        ladoTres = document.getElementById("tres")
-        ladoTres.classList.remove("visibility")
+    firstBall = randomData;
+    thirdBall = randomData;
+    fourthBall = randomData;
+    fifthBall = randomData;
+    sixthBall = randomData;
+    seventhBall = randomData;
+    ninthBall = randomData;
+
+    if(firstBall == 2 || firstBall == 4 || firstBall == 5 || firstBall == 6){
+        sideOne = document.getElementById("first-icon");
+        sideOne.classList.add("visibility");
+    } else if(firstBall != 2 || firstBall != 3 || firstBall != 4 || firstBall != 5 || firstBall != 6){
+        sideOne = document.getElementById("first-icon");
+        sideOne.classList.remove("visibility");
     }
 
-    if(cuatro == 6){
-        ladoCuatro = document.getElementById("cuatro")
-        ladoCuatro.classList.add("visibility");
-    } else if(cuatro != 6){
-        ladoCuatro = document.getElementById("cuatro")
-        ladoCuatro.classList.remove("visibility")
+    if(thirdBall == 3 || thirdBall == 6 || thirdBall == 5 || thirdBall == 4){
+        sideThree = document.getElementById("third-icon");
+        sideThree.classList.add("visibility");
+    }else if(thirdBall != 6 || thirdBall != 5 || thirdBall != 4){
+        sideThree = document.getElementById("third-icon");
+        sideThree.classList.remove("visibility");
     }
 
-    if(cinco == 1 || cinco == 3 || cinco == 5){
-        ladoUno = document.getElementById("cinco")
-        ladoUno.classList.add("visibility");
-    }else if(cinco != 1){
-        ladoUno = document.getElementById("cinco")
-        ladoUno.classList.remove("visibility")
+    if(fourthBall == 6){
+        sideFour = document.getElementById("fourth-icon");
+        sideFour.classList.add("visibility");
+    } else if(fourthBall != 6){
+        sideFour = document.getElementById("fourth-icon");
+        sideFour.classList.remove("visibility");
     }
 
-    if(seis == 6){
-        ladoSeis = document.getElementById("seis")
-        ladoSeis.classList.add("visibility");
-    } else if(seis != 6){
-        ladoSeis = document.getElementById("seis")
-        ladoSeis.classList.remove("visibility")
+    if(fifthBall == 1 || fifthBall == 3 || fifthBall == 5){
+        sideFive = document.getElementById("fifth-icon");
+        sideFive.classList.add("visibility");
+    }else if(fifthBall != 1 || fifthBall != 3 || fifthBall != 5){
+        sideFive = document.getElementById("fifth-icon");
+        sideFive.classList.remove("visibility");
     }
 
-    if(siete == 6 || siete == 3 || siete == 4 | siete == 5){
-        ladoSiete = document.getElementById("siete")
-        ladoSiete.classList.add("visibility");
-    } else if(siete != 6 || siete != 3 || siete != 4 || siete != 5){
-        ladoSiete = document.getElementById("siete")
-        ladoSiete.classList.remove("visibility")
+    if(sixthBall == 6){
+        sideSix = document.getElementById("sixth-icon");
+        sideSix.classList.add("visibility");
+    } else if(sixthBall != 6){
+        sideSix = document.getElementById("sixth-icon");
+        sideSix.classList.remove("visibility");
     }
 
-    if(nueve == 6 || nueve == 4 || nueve == 2 | nueve == 5){
-        ladoNueve = document.getElementById("nueve")
-        ladoNueve.classList.add("visibility");
-    } else if(nueve != 6 || nueve != 4 || nueve != 2 || nueve != 5){
-        ladoNueve = document.getElementById("nueve")
-        ladoNueve.classList.remove("visibility")
+    if(seventhBall == 6 || seventhBall == 3 || seventhBall == 4 | seventhBall == 5){
+        sideSeven = document.getElementById("seventh-icon");
+        sideSeven.classList.add("visibility");
+    } else if(seventhBall != 6 || seventhBall != 3 || seventhBall != 4 || seventhBall != 5){
+        sideSeven = document.getElementById("seventh-icon");
+        sideSeven.classList.remove("visibility");
     }
 
-    aleatorioDos = Math.round(Math.random()*6);
-    console.log(aleatorioDos);
-
-    unoD = aleatorioDos;
-    tresD = aleatorioDos;
-    cuatroD = aleatorioDos;
-    cincoD = aleatorioDos;
-    seisD = aleatorioDos;
-    sieteD = aleatorioDos;
-    nueveD = aleatorioDos;
-
-    if(unoD == 2 || unoD == 4 || unoD == 5 || unoD == 6){
-        ladoDos = document.getElementById("uno-d");
-        ladoDos.classList.add("visibility");
-    } else if(unoD != 2 || unoD != 3 || unoD != 4 || unoD != 5 || unoD != 6){
-        ladoDos = document.getElementById("uno-d");
-        ladoDos.classList.remove("visibility");
+    if(ninthBall == 6 || ninthBall == 4 || ninthBall == 2 | ninthBall == 5){
+        sideNine = document.getElementById("ninth-icon");
+        sideNine.classList.add("visibility");
+    } else if(ninthBall != 6 || ninthBall != 4 || ninthBall != 2 || ninthBall != 5){
+        sideNine = document.getElementById("ninth-icon");
+        sideNine.classList.remove("visibility");
     }
 
-    if(tresD == 3 || tresD == 6 || tresD == 5 || tresD == 4){
-        ladoTres = document.getElementById("tres-d")
-        ladoTres.classList.add("visibility");
-    }else if(tresD != 6 || tresD != 5 || tresD != 4){
-        ladoTres = document.getElementById("tres-d")
-        ladoTres.classList.remove("visibility")
+    secondRandomData = Math.round(Math.random()*6);
+    console.log(secondRandomData);
+
+    if(secondRandomData == 0){
+        secondRandomData = 3;
     }
 
-    if(cuatroD == 6){
-        ladoCuatro = document.getElementById("cuatro-d")
-        ladoCuatro.classList.add("visibility");
-    } else if(cuatroD != 6){
-        ladoCuatro = document.getElementById("cuatro-d")
-        ladoCuatro.classList.remove("visibility")
+    firstRightBall = secondRandomData;
+    rightThirdBall = secondRandomData;
+    rightFourthBall = secondRandomData;
+    rightFifthBall = secondRandomData;
+    rightSixthBall = secondRandomData;
+    rightSeventhBall = secondRandomData;
+    rightNinthBall = secondRandomData;
+
+    if(firstRightBall == 2 || firstRightBall == 4 || firstRightBall == 5 || firstRightBall == 6){
+        sideOneRight = document.getElementById("first-right-icon");
+        sideOneRight.classList.add("visibility");
+    } else if(firstRightBall != 2 || firstRightBall != 3 || firstRightBall != 4 || firstRightBall != 5 || firstRightBall!= 6){
+        sideOneRight = document.getElementById("first-right-icon");
+        sideOneRight.classList.remove("visibility");
     }
 
-    if(cincoD == 1 || cincoD == 3 || cincoD == 5){
-        ladoUno = document.getElementById("cinco-d")
-        ladoUno.classList.add("visibility");
-    }else if(cincoD != 1 || cincoD != 3 || cincoD != 5){
-        ladoUno = document.getElementById("cinco-d")
-        ladoUno.classList.remove("visibility")
+    if(rightThirdBall == 3 || rightThirdBall == 6 || rightThirdBall == 5 || rightThirdBall == 4){
+        sideThreeRight = document.getElementById("third-right-icon");
+        sideThreeRight.classList.add("visibility");
+    } else if(rightThirdBall != 6 || rightThirdBall != 5 || rightThirdBall != 4){
+        sideThreeRight = document.getElementById("third-right-icon");
+        sideThreeRight.classList.remove("visibility");
     }
 
-    if(seisD == 6){
-        ladoSeis = document.getElementById("seis-d")
-        ladoSeis.classList.add("visibility");
-    } else if(seisD != 6){
-        ladoSeis = document.getElementById("seis-d")
-        ladoSeis.classList.remove("visibility")
+    if(rightFourthBall == 6){
+        sideFourRight = document.getElementById("fourth-right-icon");
+        sideFourRight.classList.add("visibility");
+    } else if(rightFourthBall != 6){
+        sideFourRight = document.getElementById("fourth-right-icon");
+        sideFourRight.classList.remove("visibility");
     }
 
-    if(sieteD == 6 || sieteD == 3 || sieteD == 4 | sieteD == 5){
-        ladoSiete = document.getElementById("siete-d")
-        ladoSiete.classList.add("visibility");
-    } else if(sieteD != 6 || sieteD != 3 || sieteD != 4 || sieteD != 5){
-        ladoSiete = document.getElementById("siete-d")
-        ladoSiete.classList.remove("visibility")
+    if(rightFifthBall == 1 || rightFifthBall == 3 || rightFifthBall == 5){
+        sideFiveRight = document.getElementById("fifth-right-icon");
+        sideFiveRight.classList.add("visibility");
+    } else if(rightFifthBall != 1 || rightFifthBall != 3 || rightFifthBall != 5){
+        sideFiveRight = document.getElementById("fifth-right-icon");
+        sideFiveRight.classList.remove("visibility");
     }
 
-    if(nueveD == 6 || nueveD == 4 || nueveD == 2 | nueveD == 5){
-        ladoNueve = document.getElementById("nueve-d")
-        ladoNueve.classList.add("visibility");
-    } else if(nueveD != 6 || nueveD != 4 || nueveD != 2 || nueveD != 5){
-        ladoNueve = document.getElementById("nueve-d")
-        ladoNueve.classList.remove("visibility")
+    if(rightSixthBall == 6){
+        sideSixRight = document.getElementById("sixth-right-icon");
+        sideSixRight.classList.add("visibility");
+    } else if(rightSixthBall != 6){
+        sideSixRight = document.getElementById("sixth-right-icon");
+        sideSixRight.classList.remove("visibility");
     }
 
-    var suma = aleatorioUno + aleatorioDos;
-    document.getElementById("result").innerHTML = suma;
+    if(rightSeventhBall == 6 || rightSeventhBall == 3 || rightSeventhBall == 4 || rightSeventhBall == 5){
+        sideSevenRight = document.getElementById("seventh-right-icon");
+        sideSevenRight.classList.add("visibility");
+    } else if(rightSeventhBall != 6 || rightSeventhBall!= 3 || rightSeventhBall != 4 || rightSeventhBall != 5){
+        sideSevenRight = document.getElementById("seventh-right-icon");
+        sideSevenRight.classList.remove("visibility");
+    }
+
+    if(rightNinthBall == 6 || rightNinthBall == 4 || rightNinthBall == 2 | rightNinthBall == 5){
+        sideNineRight = document.getElementById("ninth-right-icon");
+        sideNineRight.classList.add("visibility");
+    } else if(rightNinthBall != 6 || rightNinthBall != 4 || rightNinthBall != 2 || rightNinthBall != 5){
+        sideNineRight = document.getElementById("ninth-right-icon");
+        sideNineRight.classList.remove("visibility");
+    }
+
+    var totalResult = randomData + secondRandomData;
+    document.getElementById("result").innerHTML = totalResult;
 });
