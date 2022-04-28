@@ -20,14 +20,27 @@
     color: #ff0000;
 }
 
-.image-gif{
+#boxs{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.gif{
+#image-gif{
+    display: none;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#gif{
+    width: 130px;
+    height: 130px;
+    border: solid 3px #000;
+}
+
+#gif-left{
     width: 130px;
     height: 130px;
     border: solid 3px #000;
@@ -66,4 +79,114 @@
 #result{
     font-size: 36px;
     margin-bottom: 0px;
+}
+
+.none{
+    display: none !important;
+}
+
+.flex{
+    display: flex !important;
+}
+
+#first-face{
+    display: block;
+    border: solid 3px #000;
+    width: 130px;
+    height: 130px;
+    padding-top: 1px;
+}
+
+#second-face{
+    display: block;
+    border: solid 3px #000;
+    width: 130px;
+    height: 130px;
+    padding-top: 1px;
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 13px;
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 13px;
+}
+
+.thre-row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 13px;
+}
+
+.visibility{
+    visibility: inherit !important;
+}
+
+#uno{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+#dos{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+#tres{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+#cuatro{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+#cinco{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+#seis{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+#siete{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+#ocho{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+}
+#nueve{
+    visibility: hidden;
+    border-radius: 100%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
 }
