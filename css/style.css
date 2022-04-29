@@ -89,15 +89,7 @@
     display: flex !important;
 }
 
-#left-dice{
-    display: block;
-    border: solid 3px #000;
-    width: 130px;
-    height: 130px;
-    padding-top: 1px;
-}
-
-#right-dice{
+#left-dice , #right-dice{
     display: block;
     border: solid 3px #000;
     width: 130px;
