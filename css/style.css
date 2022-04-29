@@ -20,7 +20,7 @@
     color: #ff0000;
 }
 
-#boxs{
+#dices{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
@@ -46,14 +46,14 @@
     border: solid 3px #000;
 }
 
-.button-roll{
+#roll{
     border: 1px solid #000 !important;
     border-radius: 0px;
     width: 200px;
     margin-bottom: 20px;
 }
 
-.button-hold{
+#hold{
     border: 1px solid #000 !important;
     border-radius: 0px;
     width: 200px;
@@ -89,7 +89,7 @@
     display: flex !important;
 }
 
-#first-face{
+#left-dice , #right-dice{
     display: block;
     border: solid 3px #000;
     width: 130px;
@@ -97,173 +97,25 @@
     padding-top: 1px;
 }
 
-#second-face{
-    display: block;
-    border: solid 3px #000;
-    width: 130px;
-    height: 130px;
-    padding-top: 1px;
+.first-row , .second-row , .third-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    padding: 1px 3px;
 }
 
-.first-row{
+.first-row-right , .second-row-right , .third-row-right{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 13px;
-}
-
-.second-row{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 13px;
-}
-
-.thre-row{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 13px;
+    padding: 1px 3px;
 }
 
 .visibility{
     visibility: inherit !important;
 }
 
-#first-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#second-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#third-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#fourth-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#fifth-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#sixth-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#seventh-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#eighth-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#ninth-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#first-right-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#second-right-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#third-right-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#fourth-right-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#fifth-right-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#sixth-right-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#seventh-right-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#eighth-right-icon{
-    visibility: hidden;
-    border-radius: 100%;
-    background-color: #000000;
-    width: 30px;
-    height: 30px;
-}
-
-#ninth-right-icon{
+.first-ball , .second-ball , .third-ball{
     visibility: hidden;
     border-radius: 100%;
     background-color: #000000;
