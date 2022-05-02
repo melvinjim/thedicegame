@@ -69,8 +69,5 @@ printDice = function(diceID,random){
     var thirdBall = thirdRow.getElementsByClassName("third-ball");
     if(random == 2 || random == 4 || random == 6 || random == 5){
         thirdBall[0].classList.add("visibility");
-    }
-
-    // document.getElementById("result").innerHTML = random;
-    // return random;    
+    } 
 }
