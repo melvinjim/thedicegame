@@ -59,6 +59,10 @@
     width: 200px;
 }
 
+.disabled-button{
+    pointer-events:none;
+}
+
 .buttons{
     display: grid;
     justify-content: center;
@@ -104,12 +108,12 @@
     padding: 1px 3px;
 }
 
-.first-row-right , .second-row-right , .third-row-right{
+/* .first-row-right , .second-row-right , .third-row-right{
     display: flex;
     justify-content: space-between;
     margin-bottom: 13px;
     padding: 1px 3px;
-}
+} */
 
 .visibility{
     visibility: inherit !important;
