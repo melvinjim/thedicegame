@@ -10,20 +10,16 @@ document.getElementById('hold').addEventListener('click', function() {
         box.classList.remove('visibility');
     }
 
-    printDice("left-dice");
-    printDice("right-dice");
+    var dice1 = printDice("left-dice");
+    var dice2 = printDice("right-dice");
+
+    document.getElementById("result").innerHTML = dice1 + dice2;
 });
 
 printDice = function(diceID,random){
     var min = 1;
     var max = 7;
     random = Math.floor(Math.random() * (+max - +min)) + +min;
-
-    if (diceID == "left-dice"){
-        ramdomLeft = random;
-    }
-
-    document.getElementById("result").innerHTML = ramdomLeft + random;
 
     var dice = document.getElementById(diceID);
 
@@ -70,4 +66,6 @@ printDice = function(diceID,random){
     if(random == 2 || random == 4 || random == 6 || random == 5){
         thirdBall[0].classList.add("visibility");
     } 
+
+    return random;
 }
